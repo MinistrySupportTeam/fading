@@ -23,7 +23,7 @@
 
 
 	// code
-
+ 
 	const css = new function() {
 
 		function addStyleSheet() {
@@ -43,8 +43,8 @@
 
 			}
 
-      const sheet = document.styleSheets[document.styleSheets.length - 1];
-      const rules = sheet.rules;
+			const sheet = document.styleSheets[document.styleSheets.length - 1];
+			const rules = sheet.rules;
 
 			sheet.insertRule(rule, rules.length);
 
