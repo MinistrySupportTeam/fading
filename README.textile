@@ -1,0 +1,3 @@
+h1. Fading
+
+Simple fading in and fading out behavior for websites.
