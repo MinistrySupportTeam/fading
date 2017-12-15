@@ -26,21 +26,21 @@
 
 	const css = new function() {
 
-    function addStyleSheet() {
+		function addStyleSheet() {
 
-    	const head  = document.head;
-    	const style = document.createElement('style');
+			const head  = document.head;
+			const style = document.createElement('style');
 
 			head.appendChild(style);
 
 		};
 
-    this.insert = function(rule) {
-    	
-    	if (document.styleSheets.length === 0) {
-    		
-    		addStyleSheet();
-    	
+		this.insert = function(rule) {
+
+			if (document.styleSheets.length === 0) {
+
+				addStyleSheet();
+
     	}
 
       const sheet = document.styleSheets[document.styleSheets.length - 1];
@@ -97,7 +97,7 @@
 			}, wait);
 
 		};
-	
+
 	}
 
 })();
