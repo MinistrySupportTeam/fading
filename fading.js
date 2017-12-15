@@ -33,7 +33,7 @@
 
 			head.appendChild(style);
 
-		};
+		}
 
 		this.insert = function(rule) {
 
@@ -41,14 +41,14 @@
 
 				addStyleSheet();
 
-    	}
+			}
 
       const sheet = document.styleSheets[document.styleSheets.length - 1];
       const rules = sheet.rules;
 
 			sheet.insertRule(rule, rules.length);
 
-    };
+		};
 
 	};
 
